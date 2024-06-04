@@ -21,7 +21,7 @@ public class Client {
                     out.println(resp);
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
